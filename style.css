@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b8ae;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 40px;
+
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+
+  padding: 12px 24px;
+  color: #f8f9fa;
+  text-shadow: 0 1px 2px hsla(0,0%,100%,.15);
+
+  background-color: #bf8bff;
+  background-image: linear-gradient(#bf8bff,#bf8bff);
+  box-shadow: inset 0 0 2px hsla(0,0%,100%,.15);
+
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all .15s ease-out;
+
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
