@@ -82,6 +82,16 @@ class KongaScene extends Scene {
       context.globalAlpha = opacity
       sprite.drawFrame(context, animationFrame, origin.x, origin.y, size.width, size.height)
     }
+      //Happy birthday
+      context.globalAlpha = 1
+      context.fillStyle = "#fff"
+      context.textAlign = "center"
+      context.textBaseline = "top"
+
+      const fontSize = Math.max(24, Math.min(width * 0.08, 72))
+      context.font = `bold ${fontSize}px sans-serif`
+
+      context.fillText("🎉 Happy Birthday Olivia!!! 🎉", width / 2, 30)
   }
   
   update(dt){
