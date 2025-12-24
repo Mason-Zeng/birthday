@@ -91,7 +91,7 @@ class KongaScene extends Scene {
       const fontSize = Math.max(24, Math.min(width * 0.08, 72))
       context.font = `bold ${fontSize}px sans-serif`
 
-      context.fillText("🎉 Happy Birthday Olivia!!! 🎉", width / 2, 30)
+      context.fillText("🎉 Happy Birthday Olivia! :D 🎉", width / 2, 30)
   }
   
   update(dt){
